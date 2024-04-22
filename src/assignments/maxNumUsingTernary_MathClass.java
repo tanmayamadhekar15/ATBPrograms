@@ -1,6 +1,6 @@
 package assignments;
 
-public class MaxNumUsingTernary_MathClass {
+public class maxNumUsingTernary_MathClass {
     public static void main(String[] args) {
         byte first=-127,second=127,third=0;
         byte maxNum= ((first>second)?((first>third)?first:third):((second>third)?second:third));
