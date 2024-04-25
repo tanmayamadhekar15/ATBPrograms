@@ -25,19 +25,16 @@ public class maxNumUsingTernary_ScannerClass {
 
         // Maximum number using Math class
         float l,m,n;
-        Scanner sf=new Scanner(System.in);
         System.out.println("First number : ");
-        l=sf.nextFloat();
+        l=s.nextFloat();
         System.out.println("Second number : ");
-        m=sf.nextFloat();
+        m=s.nextFloat();
         System.out.println("Third number :");;
-        n=sf.nextFloat();
+        n=s.nextFloat();
         float mathResult=(Math.max(l,m));
         float mathMax=(Math.max(n, mathResult));
         System.out.println("Maximum number using Math : " +mathMax);
 
-
+        s.close();
     }
-
-
 }
