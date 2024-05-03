@@ -24,11 +24,11 @@ public class ArithmeticUsingSwitch {
             case '-' : int sub=input1-input2;
                 System.out.println(sub); // -5
                 break;
-            case '*' : int mult=input1*input2;
-                System.out.println(mult); // 50
+            case '*' :
+                System.out.println("Mult :" +( input1*input2)); // 50
                 break;
-            case '/' : int div=input1/input2;
-                System.out.println(div); // 0
+            case '/' :
+                System.out.println("Division :" +input1/input2); // 0
                 break;
             case '%' : int mod=input1%input2;
                 System.out.println(mod); // 5

@@ -1,4 +1,4 @@
-package apr27;
+package apr27_loops;
 
 import java.util.Scanner;
 
