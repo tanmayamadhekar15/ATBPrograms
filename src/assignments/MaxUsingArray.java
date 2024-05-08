@@ -9,6 +9,24 @@ public class MaxUsingArray {
                 max=salary[i];  // 50,  60,  90,  100,  999
              }
          }
-        System.out.println(max); //999
+        System.out.println("Max number :" +max); //999
+
+        //Calling of function
+        System.out.println("Maximum number is :"+search_Max()); // 340
+    }
+    //searching max using function
+    public static int search_Max() {
+        int array[]={12,121,1,2,340};
+        int maxNum = Integer.MIN_VALUE;
+        for (int number : array) {
+            if (number > maxNum) {
+                maxNum = number;
+            }
+        }
+        return maxNum;
     }
 }
+/*
+Max number :999
+Maximum number is :340
+ */
