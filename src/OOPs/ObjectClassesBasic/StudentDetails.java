@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.ObjectClassesBasic;
 
 public class StudentDetails {
     String studentName;
