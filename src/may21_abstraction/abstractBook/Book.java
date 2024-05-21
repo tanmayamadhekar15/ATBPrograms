@@ -1,4 +1,4 @@
-package may21_abstraction;
+package may21_abstraction.abstractBook;
 
 // Abstract method and class
 abstract class Book {

@@ -1,6 +1,6 @@
-package may21_abstraction;
+package may21_abstraction.abstractBook;
 
-public class PrintMyBook extends Book{  // extends abstract class
+public class PrintMyBook extends Book {  // extends abstract class
     String bookName;
     String authorName;
     int bookPrice;
